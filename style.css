@@ -1,0 +1,311 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+}
+    
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/originals/ae/5f/45/ae5f4530fc45074f9b347202171808ad.gif);
+}
+
+.menu1{
+    display: block;
+    background-color: #00483d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.ds1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.list1{
+    display: block;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.list1:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.menu2{
+    margin-top: 5px;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.timkiem{
+    margin-left: 10px;
+    /* align-content: center; */
+}
+
+#anhlogo{
+    width: 130px;
+}
+
+#timsanpham{
+    margin-left: 15px;
+    border-radius: 15px;
+    border-color: #80808057;
+    height: 27px;
+    width: 300px;
+}
+
+#bt-search{
+    background: #00483d;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 2%;
+}
+
+#bt-search:hover{
+    background-color: black;
+}
+
+
+.check-donhang{
+    margin-right: 10px;
+    background-color: #00483d;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 45px;
+    width: 120px;
+}
+
+.check-donhang:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.giohang{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: none;
+}
+
+.giohang:hover{
+    background-color: rgb(255, 234, 40);
+}
+
+.menu3{
+    margin: 8px 180px;
+    padding: 4px;
+    display: block;
+    border-radius: 8px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #00483d;
+}
+
+.ds2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+.list2{
+    padding: 1px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.a2{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    vertical-align: center;
+}
+
+.list2 .a2:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.list2 .a2{
+    display: block;
+    padding: 5px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.big-banner{
+    position: relative;
+    left: 180px;
+}
+
+.b-banner{
+    border-radius: 10px;
+}
+
+.menu4{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    margin: 15px 20px;
+    background:rgb(196, 193, 193);
+    border: 50px none;
+    border-radius: 8px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(75, 74, 74);
+}
+
+.button1:hover{
+    background: transparent linear-gradient(90deg,#0d9984 0%,#00483d 100%);
+    color: white;
+    padding: 12px 30px;
+    box-shadow: 0px 0px 15px rgb(10, 10, 10);
+}
+
+.small-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.s-banner{
+    margin: 0 2px;
+    border-radius: 5px;
+}
+
+.sp-sale{
+    margin: 5px 176px 10px;
+    padding: 4px 80px;
+    border: none;
+    border-radius: 2px;
+    background: transparent linear-gradient(90deg,#0d9984 0%,#00483d 100%);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.sp-sale:hover{
+    background: black;
+    color: yellow;
+    cursor: pointer;
+}
+
+.swiper-wrapper-sale{
+    display: flex;
+    padding: 2px 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1{
+    display: inline-block;
+    margin: 10px 5px;
+    background-image: url(/Demo7/img/pinkblue.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px rgb(10, 10, 10);
+    border: none;
+    border-radius: 5px;
+}
+
+.block1:hover{
+    box-shadow: 1px 1px 7px #00483d;
+}
+
+.img-product-sale{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.name-product{
+    margin: 10px 0px;
+    display: inline-block;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(54, 53, 53);
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.name-product:hover{
+    color: blue;
+}
+
+.price{
+    display: inline-block;
+    margin: 8px;
+    padding: 0px 20px;
+    color: red;
+}
+
+.sale{
+    color: black;
+    padding: 2px;
+}
+
+.menu-product{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mn-product{
+    margin: 5px 3px;
+    padding: 2px 3px;
+    background: #00483d;
+    color: white;
+    border: none;
+    border-radius: 2px;
+} 
+
+.mn-product:hover{
+    background: black;
+    color: yellow;
+    cursor: pointer;
+}
